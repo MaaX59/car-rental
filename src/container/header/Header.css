@@ -1,0 +1,36 @@
+.app__header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.app__header img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.app__header_content {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins";
+}
+.app__header_content_text {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.app__header_content_image {
+  display: flex;
+  margin-top: 5rem;
+}
+.app__header_content_image img {
+  display: flex;
+  height: 400px;
+  margin-top: 5rem;
+}
