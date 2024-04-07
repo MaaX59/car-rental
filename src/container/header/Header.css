@@ -11,26 +11,102 @@
   z-index: 1;
 }
 .app__header_content {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
+  height: 80vh;
+  width: 100%;
+
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: center;
   font-family: "Poppins";
+  margin-top: 10rem;
 }
 .app__header_content_text {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  /* flex-wrap: nowrap; */
+
+  margin: 7rem 3rem 0 0;
+  /* min-width: 500px; */
+  /* position: relative;
+  left: 10%; */
+
+  z-index: 3;
+}
+.app__header_content_text h5 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.app__header_content_text h1 {
+  margin: 1px 0;
+  font-size: 50px;
+  line-height: 55px;
+  flex-wrap: nowrap;
+}
+.app__header_content_text span {
+  color: rgb(221, 3, 3);
+}
+.app__header_content_text h6 {
+  margin-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(70, 70, 70);
 }
 .app__header_content_image {
-  display: flex;
-  margin-top: 5rem;
+  width: 40%;
 }
-.app__header_content_image img {
-  display: flex;
-  height: 400px;
-  margin-top: 5rem;
+.header_img {
+  margin: 18rem 10rem 0 0;
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+}
+
+.button-book {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  padding: 17px 35px;
+  border: 2px solid rgb(221, 3, 3);
+  background-color: rgb(221, 3, 3);
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  margin-right: 2rem;
+  transition: 0.2s ease-in-out;
+}
+.button-book:hover {
+  box-shadow: 0px 1px 5px 2px black;
+}
+.button-learn {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  padding: 17px 35px;
+  border: 2px solid black;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.button-learn:hover {
+  border: 2px solid rgb(3, 3, 3);
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+.app__header_content_text_buttons a:visited {
+  text-decoration: none;
+}
+@media screen and (max-width: 1500px) {
+  .header_img {
+    margin: 18rem 5rem 0 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header_img {
+    margin: 18rem 1rem 0 0;
+  }
+}
+@media screen and (max-width: 900px) {
 }
