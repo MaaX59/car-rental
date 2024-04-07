@@ -2,6 +2,8 @@ import React from "react";
 import "./Header.css";
 import bg from "../../images/city-bg.png";
 import car from "../../images/car1.png";
+import { FaCheck } from "react-icons/fa";
+import { FaChevronRight } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -12,7 +14,7 @@ const Header = () => {
         <div className="app__header_content_text">
           <h5>For your next trip</h5>
           <h1>
-            Don´t choose a car <br />
+            Don´t choose a car, <br />
             Choose <span>the</span> car
           </h1>
           <h6>
@@ -21,10 +23,10 @@ const Header = () => {
           </h6>
           <div className="app__header_content_text_buttons">
             <a href="#awdd" className="button-book">
-              Book Now
+              Book Now <FaCheck />
             </a>
             <a className="button-learn" href="#awdd">
-              Learn More
+              Learn More <FaChevronRight />
             </a>
           </div>
         </div>

@@ -57,7 +57,7 @@
   width: 40%;
 }
 .header_img {
-  margin: 18rem 10rem 0 0;
+  margin: 18rem 7rem 0 0;
   max-width: 50%;
   max-height: 50%;
   object-fit: contain;
@@ -109,4 +109,41 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .app__header_content {
+    flex-direction: column;
+    margin-top: 8rem;
+  }
+  .app__header_content_text {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .app__header_content_text h1 {
+    font-size: 45px;
+  }
+  .app__header_content_text h5 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .app__header_content_text_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+  .button-book {
+    margin: 0 0 1rem 0;
+    width: 200px;
+  }
+  .button-learn {
+    width: 200px;
+  }
+
+  .app__header_content_image {
+    visibility: hidden;
+  }
 }
