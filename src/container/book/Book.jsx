@@ -1,5 +1,6 @@
 import React from "react";
 import "./book.css";
+import { FaCar } from "react-icons/fa";
 
 const Book = () => {
   return (
@@ -8,8 +9,13 @@ const Book = () => {
         <h4>Book a car</h4>
         <form>
           <div className="form-input">
-            <lable for="carType">Select Your Car</lable>
+            <lable for="carType">
+              {" "}
+              <FaCar size={20} />
+              Select Your Car
+            </lable>
             <select id="carType">
+              <option>Choose you car</option>
               <option>Car 1</option>
               <option>Car 2</option>
               <option>Car 3</option>
@@ -18,11 +24,27 @@ const Book = () => {
           </div>
           <div className="form-input">
             <lable for="pickUpLocation">Pick-up</lable>
-            <input id="pickUpLocation"></input>
+            <select id="pickUpLocation">
+              <option>Select Pick-Up Location</option>
+              <option>London</option>
+              <option>Berlin</option>
+              <option>Rotterdam</option>
+              <option>Paris</option>
+              <option>Lyon</option>
+              <option>Brussels</option>
+            </select>
           </div>
           <div className="form-input">
             <lable for="dropOfLocation">Drop-off</lable>
-            <input id="dropOfLocation"></input>
+            <select id="dropOfLocation">
+              <option>Select Drop-Off Location</option>
+              <option>London</option>
+              <option>Berlin</option>
+              <option>Rotterdam</option>
+              <option>Paris</option>
+              <option>Lyon</option>
+              <option>Brussels</option>
+            </select>
           </div>
           <div className="form-input">
             <lable for="pickUpDate">Pick-up</lable>
