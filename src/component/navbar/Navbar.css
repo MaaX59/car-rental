@@ -6,6 +6,7 @@
   justify-content: space-around;
   align-items: center;
   font-family: "Poppins";
+  background-color: rgb(245, 245, 245);
 }
 .app__navbar_logo {
   display: flex;
@@ -47,11 +48,18 @@
 .app__navbar_login h3 {
   margin-right: 2rem;
   font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.app__navbar_login h3:hover {
+  color: rgb(221, 3, 3);
 }
 .app__navbar_login span {
   width: 120px;
   height: 50px;
   border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgb(221, 3, 3);
   background: rgb(221, 3, 3);
   color: white;
   display: flex;
@@ -59,6 +67,10 @@
   align-items: center;
   font-size: 18px;
   font-weight: 500;
+  transition: 0.2s;
+}
+.app__navbar_login span:hover {
+  box-shadow: 0px 1px 10px rgb(221, 3, 3);
 }
 .app__navbar-smallscreen {
   display: none;

@@ -1,0 +1,48 @@
+.app__book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+.app__book_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 300px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+}
+.app__book_content h4 {
+  font-size: 25px;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+.app__book_content form {
+  display: grid;
+  font-family: "Poppins";
+  font-weight: 600;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+.app__book_content span {
+  background-color: rgb(221, 3, 3);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins";
+  font-size: 22px;
+  transition: 0.1s;
+}
+.app__book_content span:hover {
+  box-shadow: 0 1px 1px red;
+}

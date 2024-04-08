@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header } from "./container";
+import { Header, Book } from "./container";
 import Navbar from "./component/navbar/Navbar";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Header />
+      <Book />
     </div>
   );
 }
