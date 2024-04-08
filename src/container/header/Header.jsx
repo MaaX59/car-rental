@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="app__header">
       <img src={bg} alt="background" />
-      <div className="app__header_navbar"></div>
+
       <div className="app__header_content">
         <div className="app__header_content_text">
           <h5>For your next trip</h5>
