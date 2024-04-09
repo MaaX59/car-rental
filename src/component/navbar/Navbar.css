@@ -20,9 +20,10 @@
   font-size: 35px;
 }
 .app__navbar_logo img {
-  width: 70px;
-  height: 70px;
+  width: 79px;
+  height: 60px;
   margin-right: 1rem;
+  margin-top: 0.3rem;
 }
 .app__navbar_logo {
   line-height: 1px;
