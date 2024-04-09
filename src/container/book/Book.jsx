@@ -53,7 +53,7 @@ const Book = () => {
             >
               <option>Choose you car</option>
               <option>Car 3131</option>
-              <option>Car 2</option>
+              <option>Ford Mustang</option>
               <option>Car 3</option>
               <option>Car 4</option>
             </select>
