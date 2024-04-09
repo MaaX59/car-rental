@@ -1,8 +1,8 @@
 .app__book {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 300px;
+  align-items: flex-start;
+  height: auto;
   width: 100%;
   background-color: rgb(245, 245, 245);
 }
@@ -12,10 +12,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 70%;
-  height: 280px;
+  height: auto;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   padding: 2rem 2rem;
+  box-shadow: 1px 1px 5px grey;
+  margin: 1rem;
 }
 .app__book_content h4 {
   font-size: 25px;
@@ -44,17 +46,19 @@
 .app__book_content svg {
   margin-right: 7px;
 }
-.app__book_content span {
+.submit-book {
   background-color: rgb(221, 3, 3);
   border-radius: 2px;
   display: flex;
+  border: none;
   justify-content: center;
   align-items: center;
   color: white;
   font-family: "Poppins";
   font-size: 22px;
   transition: 0.1s;
+  cursor: pointer;
 }
-.app__book_content span:hover {
-  box-shadow: 0 1px 1px red;
+.submit-book:hover {
+  box-shadow: 1px 1px 1px red;
 }
