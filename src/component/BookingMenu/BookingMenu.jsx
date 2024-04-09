@@ -113,7 +113,7 @@ const BookingMenu = (props) => {
           </form>
         </div>
         <div className="app__bookingMenu_content_carInfo_submit">
-          <button>Submit</button>
+          <button>Reserve Now</button>
         </div>
       </div>
     </>
