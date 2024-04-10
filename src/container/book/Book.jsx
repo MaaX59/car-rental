@@ -31,7 +31,7 @@ const Book = () => {
   };
 
   return (
-    <div className="app__book">
+    <div className="app__book" id="book">
       {toggleMenu && (
         <BookingMenu
           data={carData}

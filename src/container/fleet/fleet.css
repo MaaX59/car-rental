@@ -1,10 +1,10 @@
 .app__fleet {
   width: 100%;
   height: 900px;
-
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
 }
 .app__fleet_title {
   display: flex;
@@ -13,33 +13,106 @@
 }
 .app__fleet_content {
   width: 70%;
-  height: 450px;
+  height: 400px;
   margin-top: 3rem;
   display: flex;
 }
 .app__fleet_content_models {
   height: 100%;
   width: 25%;
-
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
 }
 .app__fleet_content_models_single {
-  cursor: pointer;
   width: 95%;
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  color: #000000;
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: 500;
   background-color: rgb(219, 219, 219);
 }
 .app__fleet_content_models_single:hover {
+  background-color: rgb(221, 3, 3);
+  color: white;
 }
+
 .app__fleet_content_img {
   height: 100%;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__fleet_content_img img {
+  width: 100%;
+  margin: 0 2rem;
 }
 .app__fleet_content_info {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 25%;
-  background-color: aquamarine;
+}
+.app__fleet_content_info_price {
+  width: 100%;
+  height: 65px;
+  background: rgb(221, 3, 3);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+.app__fleet_content_info_grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+.app__fleet_content_info_grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.app__fleet_content_info_first,
+.app__fleet_content_info_second {
+  border-bottom: 1px solid black;
+}
+.app__fleet_content_info_first {
+  border-left: 1px solid black;
+  border-right: 1px dotted black;
+}
+.app__fleet_content_info_second {
+  border-right: 1px solid black;
+}
+.app__fleet_content_info_button {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 600;
+  background-color: rgb(221, 3, 3);
+}
+.app__fleet_content_info_button a {
+  text-decoration: none;
+}
+.app__fleet_content_info_button a:visited {
+  color: #ffffff;
 }
