@@ -116,7 +116,7 @@ const Fleet = () => {
             className="app__fleet_content_models_single"
             onClick={() => setCarType(2)}
           >
-            Ford Mustang
+            Audi S3
           </div>
           <div
             style={
@@ -127,7 +127,7 @@ const Fleet = () => {
             className="app__fleet_content_models_single"
             onClick={() => setCarType(3)}
           >
-            Ford Mustang
+            Chevrolet Camaro
           </div>
           <div
             style={
@@ -138,7 +138,7 @@ const Fleet = () => {
             className="app__fleet_content_models_single"
             onClick={() => setCarType(4)}
           >
-            Ford Mustang
+            Interceptor
           </div>
           <div
             style={
@@ -149,7 +149,7 @@ const Fleet = () => {
             className="app__fleet_content_models_single"
             onClick={() => setCarType(5)}
           >
-            Ford Mustang
+            Mercedes GLA
           </div>
         </div>
 
