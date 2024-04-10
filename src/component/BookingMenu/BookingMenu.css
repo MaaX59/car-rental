@@ -35,6 +35,7 @@
   background-color: rgb(221, 3, 3);
   border-radius: 3px;
 }
+
 .app__bookingMenu_content_topbar span,
 .app__bookingMenu_content_topbar svg {
   margin: 0 1rem;

@@ -1,0 +1,45 @@
+.app__fleet {
+  width: 100%;
+  height: 900px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.app__fleet_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app__fleet_content {
+  width: 70%;
+  height: 450px;
+  margin-top: 3rem;
+  display: flex;
+}
+.app__fleet_content_models {
+  height: 100%;
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.app__fleet_content_models_single {
+  cursor: pointer;
+  width: 95%;
+  height: 60px;
+  background-color: rgb(219, 219, 219);
+}
+.app__fleet_content_models_single:hover {
+}
+.app__fleet_content_img {
+  height: 100%;
+  width: 50%;
+}
+.app__fleet_content_info {
+  height: 100%;
+  width: 25%;
+  background-color: aquamarine;
+}

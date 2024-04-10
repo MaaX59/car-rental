@@ -3,6 +3,7 @@ import "./book.css";
 import { FaCar } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsCalendarDate } from "react-icons/bs";
+import { AiOutlineClose } from "react-icons/ai";
 import BookingMenu from "../../component/BookingMenu/BookingMenu";
 
 const Book = () => {
@@ -14,6 +15,7 @@ const Book = () => {
   const [carData, setCarData] = useState(null);
 
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [confirmation, setConfirmation] = useState(false);
 
   const book = (e) => {
     e.preventDefault();
@@ -31,11 +33,27 @@ const Book = () => {
   return (
     <div className="app__book">
       {toggleMenu && (
-        <BookingMenu data={carData} setToggleMenu={setToggleMenu} />
+        <BookingMenu
+          data={carData}
+          setToggleMenu={setToggleMenu}
+          setConfirmation={setConfirmation}
+        />
       )}
 
       <div className="app__book_content">
         <h4>Book a car</h4>
+        {confirmation && (
+          <div className="app__book_content_confirmation">
+            <span>
+              Check your email to confirm the reservation with your rental
+              voucher.
+            </span>{" "}
+            <div onClick={() => setConfirmation(false)}>
+              {" "}
+              <AiOutlineClose />{" "}
+            </div>{" "}
+          </div>
+        )}
         <form onSubmit={book}>
           <div className="form-input">
             <lable for="carType">

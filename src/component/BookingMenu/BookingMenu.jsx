@@ -14,10 +14,7 @@ const BookingMenu = (props) => {
         className="app__bookingMenu"
         onClick={() => props.setToggleMenu(false)}
       ></div>
-      <div
-        className="app__bookingMenu_content"
-        onClick={() => props.setToggleMenu(true)}
-      >
+      <div className="app__bookingMenu_content">
         <div className="app__bookingMenu_content_topbar">
           <span>Complete Reservation</span>
           <div onClick={() => props.setToggleMenu(false)}>
@@ -113,7 +110,13 @@ const BookingMenu = (props) => {
           </form>
         </div>
         <div className="app__bookingMenu_content_carInfo_submit">
-          <button>Reserve Now</button>
+          <button
+            onClick={() => (
+              props.setConfirmation(true), props.setToggleMenu(false)
+            )}
+          >
+            Reserve Now
+          </button>
         </div>
       </div>
     </>
