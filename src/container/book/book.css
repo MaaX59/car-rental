@@ -15,9 +15,8 @@
   height: auto;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
-  padding: 2rem 2rem;
+  padding: 0 2rem;
   box-shadow: 1px 1px 5px grey;
-  margin: 1rem;
 }
 .app__book_content h4 {
   font-size: 25px;

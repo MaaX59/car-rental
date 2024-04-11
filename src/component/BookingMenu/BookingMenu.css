@@ -273,3 +273,19 @@
     font-size: 12px;
   }
 }
+@media screen and (max-width: 470px) {
+  .app__bookingMenu_content_topbar span {
+    font-size: 18px;
+  }
+  .app__bookingMenu_content_carInfo_details_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .app__bookingMenu_content_carInfo_userInfo form {
+    gap: 0.5rem;
+  }
+  .form-input input {
+    font-size: 9px;
+  }
+}
