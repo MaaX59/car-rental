@@ -13,6 +13,7 @@
   align-items: center;
   font-family: "Poppins";
   margin-bottom: 2rem;
+  text-align: center;
 }
 .app__fleet_title h2 {
   font-size: 55px;
@@ -91,6 +92,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
+  text-align: center;
 }
 .app__fleet_content_info_grid div {
   display: flex;
@@ -129,4 +131,65 @@
 }
 .app__fleet_content_info_button a:visited {
   color: #ffffff;
+}
+
+@media screen and (max-width: 1450px) {
+  .app__fleet_content {
+    width: 90%;
+  }
+  .app__fleet_content_models_single {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .app__fleet_content_info_grid div {
+    font-size: 15px;
+  }
+  .app__fleet_content_info_price {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .app__fleet {
+    height: 1500px;
+  }
+  .app__fleet_content {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 1200px;
+  }
+  .app__fleet_content_models {
+    width: 300px;
+  }
+  .app__fleet_content_info {
+    width: 300px;
+  }
+  .app__fleet_content_img {
+    width: 500px;
+  }
+  .app__fleet_content_info_grid div {
+    font-size: 15px;
+  }
+  .app__fleet_content_info_price {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .app__fleet {
+    height: 1850px;
+  }
+  .app__fleet_title h2 {
+    font-size: 41px;
+  }
+  .app__fleet_title span {
+    margin: 0 1rem;
+  }
+  .app__fleet_content {
+    height: 1500px;
+  }
+  .app__fleet_content_img {
+    width: 95vw;
+  }
 }
