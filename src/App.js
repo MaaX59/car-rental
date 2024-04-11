@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Book, Fleet } from "./container";
+import { Header, Book, Fleet, Plan } from "./container";
 import Navbar from "./component/navbar/Navbar";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Header />
       <Book />
+      <Plan />
       <Fleet />
     </div>
   );
