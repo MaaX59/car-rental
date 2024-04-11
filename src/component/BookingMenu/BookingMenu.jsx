@@ -23,33 +23,37 @@ const BookingMenu = (props) => {
         </div>
         <div className="app__bookingMenu_content_carInfo">
           <div className="app__bookingMenu_content_carInfo_details">
-            <h2>Location & Date</h2>
-            <div className="app__bookingMenu_content_carInfo_details_locationStart">
-              <h4>
-                <FaLocationDot /> Pick Up Location
-              </h4>
-              <span>{props.data.locationStart}</span>
+            <div className="app__bookingMenu_content_carInfo_details_title">
+              <h2>Location & Date</h2>
             </div>
+            <div className="app__bookingMenu_content_carInfo_details_info">
+              <div className="app__bookingMenu_content_carInfo_details_locationStart">
+                <h4>
+                  <FaLocationDot /> Pick Up Location
+                </h4>
+                <span>{props.data.locationStart}</span>
+              </div>
 
-            <div className="app__bookingMenu_content_carInfo_details_locationEnd">
-              <h4>
-                <FaLocationDot /> Drop Off Location
-              </h4>
-              <span>{props.data.locationEnd}</span>
-            </div>
-            <div className="app__bookingMenu_content_carInfo_details_dateStart">
-              <h4>
-                <BsCalendarDate /> Pick Up Date
-              </h4>{" "}
-              <span>{props.data.dateStart}</span>
-            </div>
+              <div className="app__bookingMenu_content_carInfo_details_locationEnd">
+                <h4>
+                  <FaLocationDot /> Drop Off Location
+                </h4>
+                <span>{props.data.locationEnd}</span>
+              </div>
+              <div className="app__bookingMenu_content_carInfo_details_dateStart">
+                <h4>
+                  <BsCalendarDate /> Pick Up Date
+                </h4>{" "}
+                <span>{props.data.dateStart}</span>
+              </div>
 
-            <div className="app__bookingMenu_content_carInfo_details_dateEnd">
-              {" "}
-              <h4>
-                <BsCalendarDate /> Drop Off Date
-              </h4>
-              <span>{props.data.dateEnd}</span>
+              <div className="app__bookingMenu_content_carInfo_details_dateEnd">
+                {" "}
+                <h4>
+                  <BsCalendarDate /> Drop Off Date
+                </h4>
+                <span>{props.data.dateEnd}</span>
+              </div>
             </div>
           </div>
           <div className="app__bookingMenu_content_carInfo_carImage">

@@ -7,7 +7,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+
   align-items: center;
   z-index: 80;
 }
@@ -20,6 +20,7 @@
   height: 95vh;
   width: 43vw;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   border-radius: 3px;
@@ -178,4 +179,97 @@
 
 .app__bookingMenu_content_carInfo_submit button:hover {
   box-shadow: 0px 1px 1px red;
+}
+
+@media screen and (max-width: 1500px) {
+  .app__bookingMenu_content {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .app__bookingMenu_content {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 710px) {
+  .app__bookingMenu_content {
+    width: 95vw;
+  }
+  .form-input {
+    font-size: 14px;
+  }
+
+  .book-input {
+    height: 30px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .app__bookingMenu_content {
+    height: auto;
+  }
+  .app__bookingMenu_content_carInfo {
+    height: auto;
+    flex-direction: column;
+  }
+  .app__bookingMenu_content_carInfo {
+    height: auto;
+  }
+  .app__bookingMenu_content_carInfo_details {
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-left: 0;
+  }
+  .app__bookingMenu_content_carInfo_carImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .app__bookingMenu_content_carInfo_carImage img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 120px;
+    margin-top: 5px;
+  }
+  .app__bookingMenu_content_carInfo_details_info {
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2px;
+  }
+  .app__bookingMenu_content_carInfo_details h4 {
+    font-size: 12px;
+  }
+  .app__bookingMenu_content_carInfo_details span {
+    font-size: 12px;
+  }
+  .app__bookingMenu_content_topbar span {
+    font-size: 25px;
+  }
+  .app__bookingMenu_content_carInfo_details_title h2 {
+    font-size: 20px;
+  }
+  .app__bookingMenu_content_carInfo_carImage_title h2,
+  .app__bookingMenu_content_carInfo_carImage_title span {
+    font-size: 20px;
+  }
+  .app__bookingMenu_content_carInfo_userInfo_title h2 {
+    font-size: 20px;
+  }
+  .app__bookingMenu_content_carInfo_submit button {
+    margin: 1rem 0;
+  }
+  .app__bookingMenu_content_carInfo_userInfo {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .form-input {
+    width: 40vw;
+    font-size: 12px;
+  }
 }
