@@ -1,0 +1,57 @@
+.app__banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(36, 36, 36);
+  font-family: "Poppins";
+  text-align: center;
+  margin: 2rem 0;
+}
+.app__banner h1 {
+  color: rgb(255, 255, 255);
+  margin: 2rem;
+  font-weight: 600;
+  font-size: 50px;
+}
+.app__banner span {
+  color: rgb(221, 3, 3);
+}
+@media screen and (max-width: 1010px) {
+  .app__banner h1 {
+    font-size: 40px;
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .app__banner h1 {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .app__banner h1 {
+    font-size: 33px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__banner h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .app__banner h1 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .app__banner h1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .app__banner h1 {
+    font-size: 24px;
+  }
+}
