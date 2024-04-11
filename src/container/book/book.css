@@ -76,3 +76,24 @@
 .submit-book:hover {
   box-shadow: 1px 1px 1px red;
 }
+
+@media screen and (max-width: 900px) {
+  .app__book_content form {
+    display: grid;
+    font-family: "Poppins";
+    font-weight: 600;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+}
+@media screen and (max-width: 690px) {
+  .app__book_content form {
+    display: grid;
+    font-family: "Poppins";
+    font-weight: 600;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
