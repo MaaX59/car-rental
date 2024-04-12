@@ -4,5 +4,6 @@ import Fleet from "./fleet/Fleet";
 import Plan from "./plan/Plan";
 import Banner from "./banner/Banner";
 import Choose from "./choose/Choose";
+import Faq from "./faq/Faq";
 
-export { Header, Book, Fleet, Plan, Banner, Choose };
+export { Header, Book, Fleet, Plan, Banner, Choose, Faq };
