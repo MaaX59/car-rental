@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Book, Fleet, Plan, Banner } from "./container";
+import { Header, Book, Fleet, Plan, Banner, Choose } from "./container";
 import Navbar from "./component/navbar/Navbar";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Plan />
       <Fleet />
       <Banner />
+      <Choose />
     </div>
   );
 }

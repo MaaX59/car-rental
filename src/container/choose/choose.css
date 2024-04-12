@@ -1,0 +1,142 @@
+.app__choose {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+.app__choose_image {
+  width: 100%;
+  max-height: 50%;
+}
+.app__choose_image img {
+  width: 100%;
+  object-fit: contain;
+}
+.app__choose_content {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.app__choose_content_text {
+  height: 100%;
+  width: 35%;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.app__choose_content_text h4 {
+  font-size: 26px;
+  margin-bottom: 1px;
+  color: rgb(221, 3, 3);
+}
+.app__choose_content_text h2 {
+  font-size: 36px;
+  line-height: 35px;
+  width: 500px;
+
+  margin: 5px 0 10px 0;
+}
+.app__choose_content_text span {
+  display: flex;
+  width: 550px;
+  height: auto;
+}
+.app__choose_content_text h3 {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 26px;
+  font-weight: 500;
+  border: 1px solid rgb(221, 3, 3);
+  background-color: rgb(221, 3, 3);
+  cursor: pointer;
+}
+
+.app__choose_content_benefits {
+  height: 100%;
+  width: 35%;
+  margin-left: 1rem;
+}
+.app__choose_content_benefits_single {
+  display: flex;
+}
+.app__choose_content_benefits_single img {
+  margin-right: 1rem;
+  width: 150px;
+  height: 150px;
+}
+.app__choose_content_benefits_single_text h2 {
+  font-size: 26px;
+}
+.app__choose_content_benefits_single_text {
+  width: 430px;
+}
+
+@media screen and (max-width: 1500px) {
+  .app__choose_content_text span {
+    width: 400px;
+  }
+  .app__choose_content_text h2 {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .app__choose_content {
+    flex-direction: column;
+  }
+  .app__choose_content_benefits {
+    width: 60%;
+  }
+  .app__choose_content_text {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+  }
+  .app__choose_content_text h2 {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .app__choose_content_text span {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .app__choose_content_benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+  }
+  .app__choose_content_benefits_single {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .app__choose_content_benefits_single_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .app__choose_content_benefits_single_text h2 {
+    margin: 15px 0;
+  }
+  .app__choose_content_benefits_single img {
+    margin: 0;
+  }
+}
