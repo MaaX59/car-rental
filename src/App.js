@@ -1,5 +1,14 @@
 import "./App.css";
-import { Header, Book, Fleet, Plan, Banner, Choose, Faq } from "./container";
+import {
+  Header,
+  Book,
+  Fleet,
+  Plan,
+  Banner,
+  Choose,
+  Faq,
+  Mobile,
+} from "./container";
 import Navbar from "./component/navbar/Navbar";
 
 function App() {
@@ -13,6 +22,7 @@ function App() {
       <Banner />
       <Choose />
       <Faq />
+      <Mobile />
     </div>
   );
 }

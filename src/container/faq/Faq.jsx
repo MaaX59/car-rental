@@ -1,10 +1,10 @@
 import { React, useState } from "react";
 import { FaAngleDown } from "react-icons/fa6";
-import "./faw.css";
+import "./faq.css";
 import bg from "../../images/faq-bg.png";
 
 const Faq = () => {
-  const [menu, setMenu] = useState();
+  const [menu, setMenu] = useState(1);
   return (
     <div className="app__faq">
       <img src={bg} alt="background car" />
