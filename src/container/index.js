@@ -6,5 +6,6 @@ import Banner from "./banner/Banner";
 import Choose from "./choose/Choose";
 import Faq from "./faq/Faq";
 import Mobile from "./mobile/Mobile";
+import Footer from "./footer/Footer";
 
-export { Header, Book, Fleet, Plan, Banner, Choose, Faq, Mobile };
+export { Header, Book, Fleet, Plan, Banner, Choose, Faq, Mobile, Footer };

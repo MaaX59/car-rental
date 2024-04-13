@@ -68,6 +68,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .app__faq img {
+    width: 90%;
+  }
   .app__faq_content {
     width: 90%;
   }

@@ -8,6 +8,7 @@ import {
   Choose,
   Faq,
   Mobile,
+  Footer,
 } from "./container";
 import Navbar from "./component/navbar/Navbar";
 
@@ -23,6 +24,7 @@ function App() {
       <Choose />
       <Faq />
       <Mobile />
+      <Footer />
     </div>
   );
 }
