@@ -5,13 +5,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
   font-family: "Poppins";
 }
 .app__faq img {
   position: absolute;
   left: 0%;
-  margin-top: 5rem;
+  margin-top: 7rem;
   width: 450px;
   z-index: -1;
 }
