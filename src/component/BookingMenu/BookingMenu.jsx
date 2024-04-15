@@ -115,9 +115,9 @@ const BookingMenu = (props) => {
         </div>
         <div className="app__bookingMenu_content_carInfo_submit">
           <button
-            onClick={() => (
-              props.setConfirmation(true), props.setToggleMenu(false)
-            )}
+            onClick={() =>
+              props.setConfirmation(true) & props.setToggleMenu(false)
+            }
           >
             Reserve Now
           </button>

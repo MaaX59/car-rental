@@ -6,7 +6,7 @@ import bg from "../../images/faq-bg.png";
 const Faq = () => {
   const [menu, setMenu] = useState(1);
   return (
-    <div className="app__faq">
+    <div className="app__faq" id="faq">
       <img src={bg} alt="background car" />
       <div className="app__faq_title">
         <h4>FAQ</h4>

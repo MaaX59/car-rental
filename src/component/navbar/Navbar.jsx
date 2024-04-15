@@ -17,17 +17,17 @@ const Navbar = () => {
       <div className="app__navbar_list">
         <ul>
           <li>
+            <a href="#book">Book</a>
+          </li>
+          <li>
+            <a href="#fleet">Models</a>
+          </li>
+          <li>
+            <a href="#contact">About</a>
+          </li>
+          <li>
             {" "}
-            <a href="#header">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#models">Models</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
           </li>
         </ul>
       </div>
@@ -51,9 +51,9 @@ const Navbar = () => {
                   onClick={() => {
                     setToggleMenu(!toggleMenu);
                   }}
-                  href="#header"
+                  href="#book"
                 >
-                  Home
+                  Book
                 </a>
               </li>
               <li>
@@ -61,17 +61,7 @@ const Navbar = () => {
                   onClick={() => {
                     setToggleMenu(!toggleMenu);
                   }}
-                  href="#about"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  onClick={() => {
-                    setToggleMenu(!toggleMenu);
-                  }}
-                  href="#models"
+                  href="#fleet"
                 >
                   Models
                 </a>
@@ -83,7 +73,17 @@ const Navbar = () => {
                   }}
                   href="#contact"
                 >
-                  Contact
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => {
+                    setToggleMenu(!toggleMenu);
+                  }}
+                  href="#faq"
+                >
+                  FAQ
                 </a>
               </li>
             </ul>

@@ -73,7 +73,7 @@ const Fleet = () => {
     },
   ];
   return (
-    <div className="app__fleet">
+    <div className="app__fleet" id="fleet">
       <div className="app__fleet_title">
         <h4>Vehicle Models</h4>
         <h2>Our rental fleet</h2>

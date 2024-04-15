@@ -7,7 +7,7 @@ import charges from "../../images/charges.png";
 
 const Choose = () => {
   return (
-    <div className="app__choose">
+    <div className="app__choose" id="contact">
       <div className="app__choose_image">
         <img src={cars} alt="cars" />
       </div>
