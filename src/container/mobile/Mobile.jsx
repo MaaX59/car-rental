@@ -1,6 +1,6 @@
 import React from "react";
 import "./Mobile.css";
-import mobile from "../../images/mobile-bg.png";
+import mobile from "../../images/mobile-bg-2.png";
 import google from "../../images/google.png";
 import appstore from "../../images/appstore.png";
 

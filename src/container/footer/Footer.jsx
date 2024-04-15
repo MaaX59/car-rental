@@ -33,7 +33,7 @@ const Footer = () => {
         <h2>Working hours</h2>
         <span>Mon - Fri: 09:00 - 21:00</span>
         <span>Sat: 10:00 - 20:00</span>
-        <span>sun: 11:00 - 16:00</span>
+        <span>Sun: 11:00 - 16:00</span>
       </div>
       <div className="app__footer_section">
         <h2>Subscription</h2>

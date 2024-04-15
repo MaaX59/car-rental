@@ -45,8 +45,7 @@ const Book = () => {
         {confirmation && (
           <div className="app__book_content_confirmation">
             <span>
-              Check your email to confirm the reservation with your rental
-              voucher.
+              Check your email for the confirmation and your rental voucher.
             </span>{" "}
             <div onClick={() => setConfirmation(false)}>
               {" "}
@@ -70,10 +69,12 @@ const Book = () => {
               }}
             >
               <option>Choose you car</option>
-              <option>Car 3131</option>
+              <option>Tesla 3</option>
               <option>Ford Mustang</option>
-              <option>Car 3</option>
-              <option>Car 4</option>
+              <option>Audi S3</option>
+              <option>Chevrolet Camaro </option>
+              <option>Interceptor</option>
+              <option>Mercedes GLA </option>
             </select>
           </div>
           <div className="form-input">

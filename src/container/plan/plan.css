@@ -12,6 +12,10 @@
   font-size: 45px;
   margin-top: 1px;
 }
+.app__plan_title h2 {
+  color: rgb(221, 3, 3);
+}
+
 .app__plan_content {
   width: 75vw;
   display: flex;

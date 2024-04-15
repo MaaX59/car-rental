@@ -20,7 +20,6 @@
 .app__header_content {
   height: 80vh;
   width: 100%;
-
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -65,7 +64,7 @@
   width: 40%;
 }
 .header_img {
-  margin: 18rem 7rem 0 0;
+  margin: 22rem 7rem 0 0;
   max-width: 50%;
   max-height: 50%;
   object-fit: contain;
@@ -108,12 +107,12 @@
 }
 @media screen and (max-width: 1500px) {
   .header_img {
-    margin: 18rem 5rem 0 0;
+    margin: 22rem 5rem 0 0;
   }
 }
 @media screen and (max-width: 1200px) {
   .header_img {
-    margin: 18rem 1rem 0 0;
+    margin: 22rem 1rem 0 0;
   }
 }
 @media screen and (max-width: 900px) {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../images/logo - Copy.png";
+import logo from "../../images/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { SlClose } from "react-icons/sl";
 

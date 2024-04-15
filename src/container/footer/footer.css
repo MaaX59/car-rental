@@ -5,6 +5,7 @@
   justify-content: space-around;
   font-family: "Poppins";
   background: rgb(226, 226, 226);
+  z-index: 999;
 }
 .app__footer_section {
   display: flex;
