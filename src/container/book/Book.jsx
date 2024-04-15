@@ -5,6 +5,12 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BsCalendarDate } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import BookingMenu from "../../component/BookingMenu/BookingMenu";
+import mustang from "../../images/mustang.png";
+import tesla from "../../images/tesla.png";
+import audi from "../../images/audi.png";
+import camaro from "../../images/camaro.png";
+import madmax from "../../images/madmax.png";
+import mercedes from "../../images/mercedes.png";
 
 const Book = () => {
   const [car, setCar] = useState("");
@@ -19,12 +25,37 @@ const Book = () => {
 
   const book = (e) => {
     e.preventDefault();
+    let img;
+
+    switch (car) {
+      case "Tesla 3":
+        img = tesla;
+        break;
+      case "Ford Mustang":
+        img = mustang;
+        break;
+      case "Audi S3":
+        img = audi;
+        break;
+      case "Chevrolet Camaro":
+        img = camaro;
+        break;
+      case "Interceptor":
+        img = madmax;
+        break;
+      case "Mercedes GLA":
+        img = mercedes;
+        break;
+      default:
+    }
+
     const data = {
       car: car,
       locationStart: locationStart,
       locationEnd: locationEnd,
       dateStart: dateStart,
       dateEnd: dateEnd,
+      img: img,
     };
     setCarData(data);
     setToggleMenu(true);

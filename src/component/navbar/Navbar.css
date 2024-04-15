@@ -160,9 +160,22 @@
 @media screen and (max-width: 915px) {
   .app__navbar {
     justify-content: space-between;
+    height: 70px;
   }
+
   .app__navbar_logo {
     margin-left: 1rem;
+    margin-top: 1.5rem;
+  }
+  .app__navbar_logo img {
+    width: 60px;
+    height: 50px;
+  }
+  .app__navbar_logo span {
+    font-size: 19px;
+  }
+  .app__navbar_logo h1 {
+    font-size: 28px;
   }
   .app__navbar_list {
     display: none;

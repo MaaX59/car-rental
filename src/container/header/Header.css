@@ -118,7 +118,7 @@
 @media screen and (max-width: 900px) {
   .app__header_content {
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 0rem;
   }
   .app__header_content_text {
     margin-top: 0;
@@ -152,5 +152,21 @@
 
   .app__header_content_image {
     visibility: hidden;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__header img {
+    height: 80%;
+  }
+  .app__header_content_text h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .app__header_content_text h5 {
+    font-size: 28px;
+  }
+  .app__header_content_text h1 {
+    font-size: 30px;
   }
 }

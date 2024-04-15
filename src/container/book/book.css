@@ -84,15 +84,32 @@
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+    margin-bottom: 1rem;
   }
 }
+@media screen and (max-width: 776px) {
+  .app__book_content_confirmation {
+    height: 65px;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .app__book_content_confirmation {
+    height: 85px;
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (max-width: 690px) {
   .app__book_content form {
     display: grid;
     font-family: "Poppins";
     font-weight: 600;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+  .form-input {
+    width: 99%;
   }
 }

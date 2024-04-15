@@ -4,7 +4,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaCar } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsCalendarDate } from "react-icons/bs";
-import mustang from "../../images/mustang.png";
 
 const BookingMenu = (props) => {
   // console.log(" booking menu info", props.data);
@@ -64,7 +63,8 @@ const BookingMenu = (props) => {
               </h2>
               <span> {props.data.car}</span>
             </div>
-            <img src={mustang} alt={props.data.car} />
+
+            <img src={props.data.img} alt={props.data.car} />
           </div>
         </div>
         <div className="app__bookingMenu_content_carInfo_userInfo">
@@ -73,7 +73,7 @@ const BookingMenu = (props) => {
             <h2>Personal Information</h2>
           </div>
           <form>
-            <div className="form-input">
+            <div className="form-input-bookingmenu">
               <lable for="fName" type="text">
                 First Name
               </lable>
@@ -83,7 +83,7 @@ const BookingMenu = (props) => {
                 className="book-input"
               ></input>
             </div>
-            <div className="form-input">
+            <div className="form-input-bookingmenu">
               <lable for="lName" type="text">
                 Last Name
               </lable>
@@ -93,7 +93,7 @@ const BookingMenu = (props) => {
                 className="book-input"
               ></input>
             </div>
-            <div className="form-input">
+            <div className="form-input-bookingmenu">
               <lable for="pNum">Phone Number</lable>
               <input
                 className="book-input"
@@ -102,7 +102,7 @@ const BookingMenu = (props) => {
                 placeholder="  Enter your phonenumber"
               ></input>
             </div>
-            <div className="form-input">
+            <div className="form-input-bookingmenu">
               <lable for="email">Email</lable>
               <input
                 className="book-input"
