@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3697bfb8.css",
-    "main.js": "/static/js/main.bfe759d4.js",
-    "static/js/453.76d9c627.chunk.js": "/static/js/453.76d9c627.chunk.js",
-    "static/media/faq-bg.png": "/static/media/faq-bg.e8161a3b6f8a2a7d665a.png",
-    "static/media/car1.png": "/static/media/car1.ffa91f68649b318075a1.png",
-    "static/media/cars.png": "/static/media/cars.4b12bcae0fe8d5627b64.png",
-    "static/media/tesla.png": "/static/media/tesla.272c01bd4bd3b4a3c1f1.png",
-    "static/media/camaro.png": "/static/media/camaro.c07198a2a1f609dfc66b.png",
-    "static/media/mercedes.png": "/static/media/mercedes.53f89b3c10b572289b72.png",
-    "static/media/logo.png": "/static/media/logo.21dbbba1c55bb0ceee2b.png",
-    "static/media/madmax.png": "/static/media/madmax.c4e985cf06790794bb2c.png",
-    "static/media/audi.png": "/static/media/audi.b0b9f611e9d2009406b8.png",
-    "static/media/mustang.png": "/static/media/mustang.1878c51ffc96a98a02c0.png",
-    "static/media/mobile-bg-2.png": "/static/media/mobile-bg-2.9cc9369cb4ec86647c58.png",
-    "static/media/city-bg.png": "/static/media/city-bg.3b5f7a2502f0f81d1490.png",
-    "static/media/SelectCar.png": "/static/media/SelectCar.7e2c3756183745804688.png",
-    "static/media/operator.png": "/static/media/operator.9b0c8d8623b3270abc01.png",
-    "index.html": "/index.html",
-    "main.3697bfb8.css.map": "/static/css/main.3697bfb8.css.map",
-    "main.bfe759d4.js.map": "/static/js/main.bfe759d4.js.map",
-    "453.76d9c627.chunk.js.map": "/static/js/453.76d9c627.chunk.js.map"
+    "main.css": "/car-rental/static/css/main.3697bfb8.css",
+    "main.js": "/car-rental/static/js/main.21115004.js",
+    "static/js/453.76d9c627.chunk.js": "/car-rental/static/js/453.76d9c627.chunk.js",
+    "static/media/faq-bg.png": "/car-rental/static/media/faq-bg.e8161a3b6f8a2a7d665a.png",
+    "static/media/car1.png": "/car-rental/static/media/car1.ffa91f68649b318075a1.png",
+    "static/media/cars.png": "/car-rental/static/media/cars.4b12bcae0fe8d5627b64.png",
+    "static/media/tesla.png": "/car-rental/static/media/tesla.272c01bd4bd3b4a3c1f1.png",
+    "static/media/camaro.png": "/car-rental/static/media/camaro.c07198a2a1f609dfc66b.png",
+    "static/media/mercedes.png": "/car-rental/static/media/mercedes.53f89b3c10b572289b72.png",
+    "static/media/logo.png": "/car-rental/static/media/logo.21dbbba1c55bb0ceee2b.png",
+    "static/media/madmax.png": "/car-rental/static/media/madmax.c4e985cf06790794bb2c.png",
+    "static/media/audi.png": "/car-rental/static/media/audi.b0b9f611e9d2009406b8.png",
+    "static/media/mustang.png": "/car-rental/static/media/mustang.1878c51ffc96a98a02c0.png",
+    "static/media/mobile-bg-2.png": "/car-rental/static/media/mobile-bg-2.9cc9369cb4ec86647c58.png",
+    "static/media/city-bg.png": "/car-rental/static/media/city-bg.3b5f7a2502f0f81d1490.png",
+    "static/media/SelectCar.png": "/car-rental/static/media/SelectCar.7e2c3756183745804688.png",
+    "static/media/operator.png": "/car-rental/static/media/operator.9b0c8d8623b3270abc01.png",
+    "index.html": "/car-rental/index.html",
+    "main.3697bfb8.css.map": "/car-rental/static/css/main.3697bfb8.css.map",
+    "main.21115004.js.map": "/car-rental/static/js/main.21115004.js.map",
+    "453.76d9c627.chunk.js.map": "/car-rental/static/js/453.76d9c627.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3697bfb8.css",
-    "static/js/main.bfe759d4.js"
+    "static/js/main.21115004.js"
   ]
 }
