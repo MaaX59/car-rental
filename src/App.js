@@ -11,6 +11,7 @@ import {
   Footer,
 } from "./container";
 import Navbar from "./component/navbar/Navbar";
+import ScrollButton from "./component/ScrollButton/ScrollButton";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Faq />
       <Mobile />
       <Footer />
+      <ScrollButton />
     </div>
   );
 }

@@ -93,6 +93,7 @@
   font-family: "Poppins";
   gap: 1rem;
   padding-left: 1rem;
+  margin-top: 0.5rem;
 }
 .app__bookingMenu_content_carInfo_carImage_title span {
   font-size: 25px;
@@ -102,7 +103,7 @@
 .app__bookingMenu_content_carInfo_carImage img {
   width: 100%;
   object-fit: contain;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .app__bookingMenu_content_carInfo_userInfo {

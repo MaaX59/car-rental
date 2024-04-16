@@ -1,0 +1,11 @@
+.app__scrollButton {
+  position: fixed;
+  width: 100%;
+  left: 47%;
+  bottom: 40px;
+  height: 25px;
+  font-size: 4rem;
+  z-index: 9999;
+  cursor: pointer;
+  color: rgb(216, 0, 0);
+}
